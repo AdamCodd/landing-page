@@ -61,7 +61,7 @@ body {
 
 .header .container h1 {
     color: #F9FAF8;
-    font-weight: 900;
+    font-weight: bold;
     font-size: 48px;
     line-height: 1.2;
 }
