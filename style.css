@@ -106,7 +106,7 @@ body {
 }
 
 .info {
-    max-width: 150px;
+    flex: 0 0 150px;
 }
 
 .info img {
@@ -149,4 +149,33 @@ body {
     color: #1F2937;
     margin-right: 40px;
     line-height: 2;
+}
+
+.call-action {
+    padding: 100px 0;
+}
+
+.call-action .container {
+    display: flex;
+    background: #3882F6;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 30px 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.call-action button { 
+    padding: 6px 30px; 
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: 2px solid #E5E7EB;
+    background: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+footer {
+    background-color: aliceblue;
+    height: 60px;
 }
